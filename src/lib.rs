@@ -9,11 +9,11 @@ pub struct Human {
     leg: f64,
 }
 impl Human {
-    pub fn new(name: String, age: u32) -> Human{
+    pub fn new(name: String, age: u32) -> Human {
         Human {
             name,
             age,
-            leg: 0.8
+            leg: 0.8,
         }
     }
 }
@@ -34,10 +34,7 @@ pub struct Cat {
 
 impl Cat {
     pub fn new(kind: String) -> Cat {
-        Cat {
-            kind,
-            leg: 0.2,
-        }
+        Cat { kind, leg: 0.2 }
     }
 }
 
